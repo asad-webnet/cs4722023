@@ -1,0 +1,38 @@
+body {
+    background-color: bisque;
+}
+
+
+h1 {
+    color: darkgreen;
+    text-decoration: underline;
+    text-align: center;
+}
+
+p {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h2 {
+    color: darkcyan;
+    text-decoration: underline;
+    text-align: center;
+}
+
+
+div {
+    max-width: 100%;
+}
+
+a{
+    text-decoration: none;
+}
+a:hover {
+    color: red;
+    text-decoration: underline;
+}
+
+.first-letter {
+    font-size: 35px;
+    line-height: 70px;
+  }
