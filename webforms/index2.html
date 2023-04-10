@@ -76,7 +76,7 @@
             <br>
             <form>
 
-                <h4 class="font-weight-normal">New Product Form</h1>
+                <h4 class="font-weight-normal">New Product Form</h4>
                 <br>
 
                 <div class="form-row">
@@ -103,9 +103,9 @@
                     <div class="form-group col">
                         <label for="supplierName">Supplier</label>
                         <select required class="form-control" id="supplierName">
-                          <option selected>Select a supplier</option>
-                          <option>Supplier1</option>
-                          <option>Supplier2</option>
+                          <option value="0" selected>Select a supplier</option>
+                          <option value="1">Supplier1</option>
+                          <option value="2">Supplier2</option>
                         </select>
                       </div>
                     
@@ -119,8 +119,8 @@
                     </div>
     
                     <div class="form-group col">
-                      <label for="quantityinstock">Quantity in stock</label>
-                      <input required type="date" form class="form-control" id="quantityinstock" placeholder="Password">
+                      <label for="dateSupplied">Date Supplier</label>
+                      <input required type="date" class="form-control" id="dateSupplied" placeholder="Password">
                       <small class="text-muted">Enter a valid Date.</small>
 
                     </div>
@@ -132,7 +132,7 @@
                 </a>
                 <div class="form-check d-flex justify-content-end">
                     <button type="reset" class="btn btn-outline-dark mr-4">Reset</button>
-                    <button type="cancel" class="btn btn-outline-danger mr-4">Cancel</button>
+                    <button type="button" class="btn btn-outline-danger mr-4">Cancel</button>
                     <button type="submit" class="btn btn-outline-primary">Add a product</button>
 
                 </div>
